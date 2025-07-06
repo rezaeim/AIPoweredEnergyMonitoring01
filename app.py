@@ -61,3 +61,4 @@ for page_name, page_info in pages.items():
     if page_info["id"] == current_page:
         page_info["module"].show_page()
         break
+    
